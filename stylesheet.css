@@ -1,0 +1,35 @@
+html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+}
+
+.container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      background-color: lightgray;
+      width: 100%;
+      height: 100%;
+
+      /* You will need to add more to this .container as well */
+}
+
+#RED {
+      background-color: red;
+}
+
+#ORANGE {
+      background-color: orange;
+}
+
+#YELLOW {
+      background-color: yellow;
+}
+
+#GREEN {
+      background-color: green;
+}
+
+#BLUE {
+      background-color: blue;
+}
