@@ -25,20 +25,38 @@ If you finish early, please experiment with putting other types of elements insi
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>CSS Grid Example</title>
+    <title>CSS Grid Color Blocks</title>
     <link rel="stylesheet" href="style.css">
   </head>
   
   <body>
     <div class="container">
-      <div id="RED"></div>
-      <div id="ORANGE"></div>
-      <div id="YELLOW"></div>
-      <div id="GREEN"></div>
-      <div id="BLUE"></div>
-      <div id="INDIGO"></div>
-      <div id="VIOLET"></div>
-      <div id="BLACK"></div>
+      <div id="RED" class="box">RED</div>
+      <div id="ORANGE" class="box">ORANGE</div>
+      <div id="YELLOW" class="box">YELLOW</div>
+
+      <div id="GREEN" class="box">
+        <p>This is the ultra overdone green section.</p>
+        <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li><a href="https://www.mcdonalds.com/us/en-us.html">MCD</a></li>
+        </ul>
+
+
+        <!-- Nested grid inside GREEN -->
+        <div class="mini-grid">
+        <div class="cell">1</div>
+        <div class="cell">2</div>
+        <div class="cell">3</div>
+        <div class="cell">4</div>
+        </div>
+      </div>
+
+      <div id="BLUE" class="box">BLUE</div>
+      <div id="INDIGO" class="box">INDIGO</div>
+      <div id="VIOLET" class="box">VIOLET</div>
+      <div id="BLACK" class="box">BLACK</div>
     </div>
   </body>
 </html>
